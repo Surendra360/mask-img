@@ -1,0 +1,25 @@
+*{
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body{
+width: 100%;
+height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    -webkit-mask-image: url(./splace.png);
+    -webkit-mask-size: 100%;
+}
